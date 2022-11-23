@@ -1,0 +1,29 @@
+.controller{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+.actions{
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.action{
+    width: 15%;
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: #FC1503 !important;
+    color: white !important;
+    text-transform: none;
+}
+.required{
+    color: #FC1503;
+    margin-bottom: 0;
+    font-size: 15px;
+}

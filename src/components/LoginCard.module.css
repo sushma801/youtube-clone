@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.titlebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.action{
+    width: 15%;
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: #FC1503 !important;
+    color: white !important;
+    text-transform: none;
+}
+h3,.required{
+    color: #FC1503;
+    margin-bottom: 0;
+}
+.username,.password{
+    margin-bottom: 1rem;
+}
+.actions{
+    display: flex;
+    justify-content: end;
+}
